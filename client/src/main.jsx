@@ -3,6 +3,8 @@ import { createRoot } from 'react-dom/client'
 import App from './App'
 import './main.css'
 
+// Revisado
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />

@@ -1,5 +1,7 @@
 package main
 
+// Revisado
+
 import (
 	"Analizador/infrastructure"
 	"log"
