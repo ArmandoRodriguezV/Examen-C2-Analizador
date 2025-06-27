@@ -1,0 +1,15 @@
+.Token {
+    width: 100%;
+    border-top: 1px solid #adadad;
+    background: #494949;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;;
+    p {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        border-left: 1px solid #adadad;
+        border-right: 1px solid #adadad;
+    }
+}

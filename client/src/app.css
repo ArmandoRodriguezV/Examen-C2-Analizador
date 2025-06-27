@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+.App {
+    overflow: auto;
+}
+
+.App .codeSection {
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    font-family: 'Fira Code', monospace;
+    border: none;
+    border-radius: 1px;
+    background: black;
+    color: #ededed;
+    border-radius: 10px;
+}
+
+.App .controllers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    padding: 10px;
+
+    button {
+        width: 40%;
+        height: 50px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+        color: white;
+        transition: .2s;
+    }
+
+    button:hover {
+        opacity: 0.5;
+    }
+
+    .cl {
+        background: #ff5050;
+    }
+
+    .an {
+        background: #2e69ff;
+    }
+}
+
+.App .results {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 75%;
+    height: 50%;
+    overflow: auto;
+}
+
+.Conteo {
+    width: 10%;
+}
+
+.App .Cabeza {
+    width: 100%;
+    background: #606060;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    p {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        border-left: 1px solid #adadad;
+        border-right: 1px solid #adadad;
+    }
+}
+
+.App .semantic {
+    margin: 10px;
+    width: 50%;
+    padding: 30px;
+    background: #662525;
+    border-radius: 10px;
+    border: 3px solid #ff2e2e;
+    color: #ff2e2e;
+}
